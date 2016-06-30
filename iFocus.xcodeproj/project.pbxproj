@@ -7,14 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C64A9ED1CA90D4D007A4500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64A9EC1CA90D4D007A4500 /* main.m */; };
-		0C64A9F01CA90D4D007A4500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64A9EF1CA90D4D007A4500 /* AppDelegate.m */; };
-		0C64A9F31CA90D4D007A4500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64A9F21CA90D4D007A4500 /* ViewController.m */; };
-		0C64A9F61CA90D4D007A4500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C64A9F41CA90D4D007A4500 /* Main.storyboard */; };
-		0C64A9F81CA90D4D007A4500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C64A9F71CA90D4D007A4500 /* Assets.xcassets */; };
-		0C64A9FB1CA90D4D007A4500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C64A9F91CA90D4D007A4500 /* LaunchScreen.storyboard */; };
 		0C64AA061CA90D4D007A4500 /* iFocusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA051CA90D4D007A4500 /* iFocusTests.m */; };
 		0C64AA111CA90D4D007A4500 /* iFocusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA101CA90D4D007A4500 /* iFocusUITests.m */; };
+		0C64AA681CA90DB4007A4500 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA201CA90DB4007A4500 /* UIFont+Extension.m */; };
+		0C64AA691CA90DB4007A4500 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA261CA90DB4007A4500 /* LoginViewController.m */; };
+		0C64AA6A1CA90DB4007A4500 /* LoginData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA291CA90DB4007A4500 /* LoginData.m */; };
+		0C64AA6B1CA90DB4007A4500 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA2C1CA90DB4007A4500 /* LoginView.m */; };
+		0C64AA6C1CA90DB4007A4500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA2F1CA90DB4007A4500 /* AppDelegate.m */; };
+		0C64AA6D1CA90DB4007A4500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C64AA301CA90DB4007A4500 /* Assets.xcassets */; };
+		0C64AA6E1CA90DB4007A4500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C64AA311CA90DB4007A4500 /* LaunchScreen.storyboard */; };
+		0C64AA6F1CA90DB4007A4500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C64AA331CA90DB4007A4500 /* Main.storyboard */; };
+		0C64AA701CA90DB4007A4500 /* BigYoungMediumGB2.0.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0C64AA351CA90DB4007A4500 /* BigYoungMediumGB2.0.ttf */; };
+		0C64AA721CA90DB4007A4500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA381CA90DB4007A4500 /* main.m */; };
+		0C64AA731CA90DB4007A4500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA3A1CA90DB4007A4500 /* ViewController.m */; };
+		0C64AA751CA90DB4007A4500 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA431CA90DB4007A4500 /* MASCompositeConstraint.m */; };
+		0C64AA761CA90DB4007A4500 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA461CA90DB4007A4500 /* MASConstraint.m */; };
+		0C64AA771CA90DB4007A4500 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA481CA90DB4007A4500 /* MASConstraintMaker.m */; };
+		0C64AA781CA90DB4007A4500 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA4A1CA90DB4007A4500 /* MASLayoutConstraint.m */; };
+		0C64AA791CA90DB4007A4500 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA4E1CA90DB4007A4500 /* MASViewAttribute.m */; };
+		0C64AA7A1CA90DB4007A4500 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA501CA90DB4007A4500 /* MASViewConstraint.m */; };
+		0C64AA7B1CA90DB4007A4500 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA521CA90DB4007A4500 /* NSArray+MASAdditions.m */; };
+		0C64AA7C1CA90DB4007A4500 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA551CA90DB4007A4500 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0C64AA7D1CA90DB4007A4500 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA571CA90DB4007A4500 /* View+MASAdditions.m */; };
+		0C64AA7E1CA90DB4007A4500 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA5A1CA90DB4007A4500 /* ViewController+MASAdditions.m */; };
+		0C64AA7F1CA90DB4007A4500 /* FileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA5D1CA90DB4007A4500 /* FileManager.m */; };
+		0C64AA801CA90DB4007A4500 /* InputValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA5F1CA90DB4007A4500 /* InputValidator.m */; };
+		0C64AA811CA90DB5007A4500 /* JSONConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA611CA90DB4007A4500 /* JSONConverter.m */; };
+		0C64AA821CA90DB5007A4500 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA631CA90DB4007A4500 /* LoginManager.m */; };
+		0C64AA831CA90DB5007A4500 /* MD5Encryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA651CA90DB4007A4500 /* MD5Encryptor.m */; };
+		0C64AA841CA90DB5007A4500 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA671CA90DB4007A4500 /* NetworkManager.m */; };
+		0C64AA871CA9113E007A4500 /* QRCodeBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA861CA9113E007A4500 /* QRCodeBackgroundView.m */; };
+		0C64AA8A1CA9140D007A4500 /* QRCodeAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA891CA9140D007A4500 /* QRCodeAreaView.m */; };
+		0C64AA8D1CA91A66007A4500 /* QRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA8C1CA91A66007A4500 /* QRCodeViewController.m */; };
+		0C64AA901CAA0F0A007A4500 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA8F1CAA0F0A007A4500 /* QRCodeGenerator.m */; };
+		0C64AA931CAA2C33007A4500 /* QRCodeScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C64AA921CAA2C33007A4500 /* QRCodeScanner.m */; };
+		0C64AA991CAA87E7007A4500 /* validate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C64AA971CAA87E7007A4500 /* validate.wav */; };
+		0C64AA9A1CAA87E7007A4500 /* invalidate.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0C64AA981CAA87E7007A4500 /* invalidate.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +64,82 @@
 
 /* Begin PBXFileReference section */
 		0C64A9E81CA90D4D007A4500 /* iFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C64A9EC1CA90D4D007A4500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C64A9EE1CA90D4D007A4500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0C64A9EF1CA90D4D007A4500 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0C64A9F11CA90D4D007A4500 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0C64A9F21CA90D4D007A4500 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0C64A9F51CA90D4D007A4500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0C64A9F71CA90D4D007A4500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0C64A9FA1CA90D4D007A4500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0C64A9FC1CA90D4D007A4500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C64AA011CA90D4D007A4500 /* iFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C64AA051CA90D4D007A4500 /* iFocusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFocusTests.m; sourceTree = "<group>"; };
 		0C64AA071CA90D4D007A4500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C64AA0C1CA90D4D007A4500 /* iFocusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFocusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C64AA101CA90D4D007A4500 /* iFocusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iFocusUITests.m; sourceTree = "<group>"; };
 		0C64AA121CA90D4D007A4500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C64AA1F1CA90DB4007A4500 /* UIFont+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		0C64AA201CA90DB4007A4500 /* UIFont+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+		0C64AA221CA90DB4007A4500 /* URLConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLConstant.h; sourceTree = "<group>"; };
+		0C64AA251CA90DB4007A4500 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0C64AA261CA90DB4007A4500 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0C64AA281CA90DB4007A4500 /* LoginData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginData.h; sourceTree = "<group>"; };
+		0C64AA291CA90DB4007A4500 /* LoginData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginData.m; sourceTree = "<group>"; };
+		0C64AA2B1CA90DB4007A4500 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		0C64AA2C1CA90DB4007A4500 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		0C64AA2E1CA90DB4007A4500 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C64AA2F1CA90DB4007A4500 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C64AA301CA90DB4007A4500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C64AA321CA90DB4007A4500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0C64AA341CA90DB4007A4500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0C64AA351CA90DB4007A4500 /* BigYoungMediumGB2.0.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigYoungMediumGB2.0.ttf; sourceTree = "<group>"; };
+		0C64AA361CA90DB4007A4500 /* iFocus-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iFocus-Prefix.pch"; sourceTree = "<group>"; };
+		0C64AA371CA90DB4007A4500 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C64AA381CA90DB4007A4500 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C64AA391CA90DB4007A4500 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0C64AA3A1CA90DB4007A4500 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0C64AA411CA90DB4007A4500 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C64AA421CA90DB4007A4500 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0C64AA431CA90DB4007A4500 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0C64AA441CA90DB4007A4500 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0C64AA451CA90DB4007A4500 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		0C64AA461CA90DB4007A4500 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		0C64AA471CA90DB4007A4500 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		0C64AA481CA90DB4007A4500 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0C64AA491CA90DB4007A4500 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		0C64AA4A1CA90DB4007A4500 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0C64AA4B1CA90DB4007A4500 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		0C64AA4C1CA90DB4007A4500 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		0C64AA4D1CA90DB4007A4500 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		0C64AA4E1CA90DB4007A4500 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		0C64AA4F1CA90DB4007A4500 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		0C64AA501CA90DB4007A4500 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		0C64AA511CA90DB4007A4500 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		0C64AA521CA90DB4007A4500 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0C64AA531CA90DB4007A4500 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0C64AA541CA90DB4007A4500 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0C64AA551CA90DB4007A4500 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0C64AA561CA90DB4007A4500 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		0C64AA571CA90DB4007A4500 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		0C64AA581CA90DB4007A4500 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0C64AA591CA90DB4007A4500 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		0C64AA5A1CA90DB4007A4500 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0C64AA5C1CA90DB4007A4500 /* FileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileManager.h; sourceTree = "<group>"; };
+		0C64AA5D1CA90DB4007A4500 /* FileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileManager.m; sourceTree = "<group>"; };
+		0C64AA5E1CA90DB4007A4500 /* InputValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputValidator.h; sourceTree = "<group>"; };
+		0C64AA5F1CA90DB4007A4500 /* InputValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputValidator.m; sourceTree = "<group>"; };
+		0C64AA601CA90DB4007A4500 /* JSONConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONConverter.h; sourceTree = "<group>"; };
+		0C64AA611CA90DB4007A4500 /* JSONConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONConverter.m; sourceTree = "<group>"; };
+		0C64AA621CA90DB4007A4500 /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
+		0C64AA631CA90DB4007A4500 /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
+		0C64AA641CA90DB4007A4500 /* MD5Encryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Encryptor.h; sourceTree = "<group>"; };
+		0C64AA651CA90DB4007A4500 /* MD5Encryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MD5Encryptor.m; sourceTree = "<group>"; };
+		0C64AA661CA90DB4007A4500 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		0C64AA671CA90DB4007A4500 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		0C64AA851CA9113E007A4500 /* QRCodeBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeBackgroundView.h; sourceTree = "<group>"; };
+		0C64AA861CA9113E007A4500 /* QRCodeBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeBackgroundView.m; sourceTree = "<group>"; };
+		0C64AA881CA9140D007A4500 /* QRCodeAreaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeAreaView.h; sourceTree = "<group>"; };
+		0C64AA891CA9140D007A4500 /* QRCodeAreaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeAreaView.m; sourceTree = "<group>"; };
+		0C64AA8B1CA91A66007A4500 /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
+		0C64AA8C1CA91A66007A4500 /* QRCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeViewController.m; sourceTree = "<group>"; };
+		0C64AA8E1CAA0F0A007A4500 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		0C64AA8F1CAA0F0A007A4500 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		0C64AA911CAA2C33007A4500 /* QRCodeScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeScanner.h; sourceTree = "<group>"; };
+		0C64AA921CAA2C33007A4500 /* QRCodeScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeScanner.m; sourceTree = "<group>"; };
+		0C64AA971CAA87E7007A4500 /* validate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = validate.wav; sourceTree = "<group>"; };
+		0C64AA981CAA87E7007A4500 /* invalidate.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = invalidate.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +190,15 @@
 		0C64A9EA1CA90D4D007A4500 /* iFocus */ = {
 			isa = PBXGroup;
 			children = (
-				0C64A9EE1CA90D4D007A4500 /* AppDelegate.h */,
-				0C64A9EF1CA90D4D007A4500 /* AppDelegate.m */,
-				0C64A9F11CA90D4D007A4500 /* ViewController.h */,
-				0C64A9F21CA90D4D007A4500 /* ViewController.m */,
-				0C64A9F41CA90D4D007A4500 /* Main.storyboard */,
-				0C64A9F71CA90D4D007A4500 /* Assets.xcassets */,
-				0C64A9F91CA90D4D007A4500 /* LaunchScreen.storyboard */,
-				0C64A9FC1CA90D4D007A4500 /* Info.plist */,
+				0C64AA231CA90DB4007A4500 /* Login */,
+				0C64AA3B1CA90DB4007A4500 /* QRCode */,
+				0C64AA1E1CA90DB4007A4500 /* Category */,
+				0C64AA5B1CA90DB4007A4500 /* Tool */,
+				0C64AA9D1CAB73D4007A4500 /* Transition */,
+				0C64AA211CA90DB4007A4500 /* Constant */,
+				0C64AA3F1CA90DB4007A4500 /* ThirdLibrary */,
+				0C64AA2D1CA90DB4007A4500 /* Other */,
+				0C64AA961CAA87E7007A4500 /* Resources */,
 				0C64A9EB1CA90D4D007A4500 /* Supporting Files */,
 			);
 			path = iFocus;
@@ -117,7 +207,6 @@
 		0C64A9EB1CA90D4D007A4500 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0C64A9EC1CA90D4D007A4500 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +227,195 @@
 				0C64AA121CA90D4D007A4500 /* Info.plist */,
 			);
 			path = iFocusUITests;
+			sourceTree = "<group>";
+		};
+		0C64AA1E1CA90DB4007A4500 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA1F1CA90DB4007A4500 /* UIFont+Extension.h */,
+				0C64AA201CA90DB4007A4500 /* UIFont+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0C64AA211CA90DB4007A4500 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA221CA90DB4007A4500 /* URLConstant.h */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		0C64AA231CA90DB4007A4500 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA241CA90DB4007A4500 /* Controller */,
+				0C64AA271CA90DB4007A4500 /* Model */,
+				0C64AA2A1CA90DB4007A4500 /* View */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0C64AA241CA90DB4007A4500 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA251CA90DB4007A4500 /* LoginViewController.h */,
+				0C64AA261CA90DB4007A4500 /* LoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C64AA271CA90DB4007A4500 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA281CA90DB4007A4500 /* LoginData.h */,
+				0C64AA291CA90DB4007A4500 /* LoginData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C64AA2A1CA90DB4007A4500 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA2B1CA90DB4007A4500 /* LoginView.h */,
+				0C64AA2C1CA90DB4007A4500 /* LoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C64AA2D1CA90DB4007A4500 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA2E1CA90DB4007A4500 /* AppDelegate.h */,
+				0C64AA2F1CA90DB4007A4500 /* AppDelegate.m */,
+				0C64AA301CA90DB4007A4500 /* Assets.xcassets */,
+				0C64AA311CA90DB4007A4500 /* LaunchScreen.storyboard */,
+				0C64AA331CA90DB4007A4500 /* Main.storyboard */,
+				0C64AA351CA90DB4007A4500 /* BigYoungMediumGB2.0.ttf */,
+				0C64AA361CA90DB4007A4500 /* iFocus-Prefix.pch */,
+				0C64AA371CA90DB4007A4500 /* Info.plist */,
+				0C64AA381CA90DB4007A4500 /* main.m */,
+				0C64AA391CA90DB4007A4500 /* ViewController.h */,
+				0C64AA3A1CA90DB4007A4500 /* ViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0C64AA3B1CA90DB4007A4500 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA3C1CA90DB4007A4500 /* Controller */,
+				0C64AA3D1CA90DB4007A4500 /* Model */,
+				0C64AA3E1CA90DB4007A4500 /* View */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		0C64AA3C1CA90DB4007A4500 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA8B1CA91A66007A4500 /* QRCodeViewController.h */,
+				0C64AA8C1CA91A66007A4500 /* QRCodeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0C64AA3D1CA90DB4007A4500 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0C64AA3E1CA90DB4007A4500 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA851CA9113E007A4500 /* QRCodeBackgroundView.h */,
+				0C64AA861CA9113E007A4500 /* QRCodeBackgroundView.m */,
+				0C64AA881CA9140D007A4500 /* QRCodeAreaView.h */,
+				0C64AA891CA9140D007A4500 /* QRCodeAreaView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0C64AA3F1CA90DB4007A4500 /* ThirdLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA401CA90DB4007A4500 /* Masonry */,
+			);
+			path = ThirdLibrary;
+			sourceTree = "<group>";
+		};
+		0C64AA401CA90DB4007A4500 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA411CA90DB4007A4500 /* Info.plist */,
+				0C64AA421CA90DB4007A4500 /* MASCompositeConstraint.h */,
+				0C64AA431CA90DB4007A4500 /* MASCompositeConstraint.m */,
+				0C64AA441CA90DB4007A4500 /* MASConstraint+Private.h */,
+				0C64AA451CA90DB4007A4500 /* MASConstraint.h */,
+				0C64AA461CA90DB4007A4500 /* MASConstraint.m */,
+				0C64AA471CA90DB4007A4500 /* MASConstraintMaker.h */,
+				0C64AA481CA90DB4007A4500 /* MASConstraintMaker.m */,
+				0C64AA491CA90DB4007A4500 /* MASLayoutConstraint.h */,
+				0C64AA4A1CA90DB4007A4500 /* MASLayoutConstraint.m */,
+				0C64AA4B1CA90DB4007A4500 /* Masonry.h */,
+				0C64AA4C1CA90DB4007A4500 /* MASUtilities.h */,
+				0C64AA4D1CA90DB4007A4500 /* MASViewAttribute.h */,
+				0C64AA4E1CA90DB4007A4500 /* MASViewAttribute.m */,
+				0C64AA4F1CA90DB4007A4500 /* MASViewConstraint.h */,
+				0C64AA501CA90DB4007A4500 /* MASViewConstraint.m */,
+				0C64AA511CA90DB4007A4500 /* NSArray+MASAdditions.h */,
+				0C64AA521CA90DB4007A4500 /* NSArray+MASAdditions.m */,
+				0C64AA531CA90DB4007A4500 /* NSArray+MASShorthandAdditions.h */,
+				0C64AA541CA90DB4007A4500 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0C64AA551CA90DB4007A4500 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0C64AA561CA90DB4007A4500 /* View+MASAdditions.h */,
+				0C64AA571CA90DB4007A4500 /* View+MASAdditions.m */,
+				0C64AA581CA90DB4007A4500 /* View+MASShorthandAdditions.h */,
+				0C64AA591CA90DB4007A4500 /* ViewController+MASAdditions.h */,
+				0C64AA5A1CA90DB4007A4500 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		0C64AA5B1CA90DB4007A4500 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA5C1CA90DB4007A4500 /* FileManager.h */,
+				0C64AA5D1CA90DB4007A4500 /* FileManager.m */,
+				0C64AA5E1CA90DB4007A4500 /* InputValidator.h */,
+				0C64AA5F1CA90DB4007A4500 /* InputValidator.m */,
+				0C64AA601CA90DB4007A4500 /* JSONConverter.h */,
+				0C64AA611CA90DB4007A4500 /* JSONConverter.m */,
+				0C64AA621CA90DB4007A4500 /* LoginManager.h */,
+				0C64AA631CA90DB4007A4500 /* LoginManager.m */,
+				0C64AA641CA90DB4007A4500 /* MD5Encryptor.h */,
+				0C64AA651CA90DB4007A4500 /* MD5Encryptor.m */,
+				0C64AA661CA90DB4007A4500 /* NetworkManager.h */,
+				0C64AA671CA90DB4007A4500 /* NetworkManager.m */,
+				0C64AA8E1CAA0F0A007A4500 /* QRCodeGenerator.h */,
+				0C64AA8F1CAA0F0A007A4500 /* QRCodeGenerator.m */,
+				0C64AA911CAA2C33007A4500 /* QRCodeScanner.h */,
+				0C64AA921CAA2C33007A4500 /* QRCodeScanner.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0C64AA961CAA87E7007A4500 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C64AA971CAA87E7007A4500 /* validate.wav */,
+				0C64AA981CAA87E7007A4500 /* invalidate.wav */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C64AA9D1CAB73D4007A4500 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +521,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C64A9FB1CA90D4D007A4500 /* LaunchScreen.storyboard in Resources */,
-				0C64A9F81CA90D4D007A4500 /* Assets.xcassets in Resources */,
-				0C64A9F61CA90D4D007A4500 /* Main.storyboard in Resources */,
+				0C64AA6F1CA90DB4007A4500 /* Main.storyboard in Resources */,
+				0C64AA701CA90DB4007A4500 /* BigYoungMediumGB2.0.ttf in Resources */,
+				0C64AA9A1CAA87E7007A4500 /* invalidate.wav in Resources */,
+				0C64AA6D1CA90DB4007A4500 /* Assets.xcassets in Resources */,
+				0C64AA991CAA87E7007A4500 /* validate.wav in Resources */,
+				0C64AA6E1CA90DB4007A4500 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +551,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C64A9F31CA90D4D007A4500 /* ViewController.m in Sources */,
-				0C64A9F01CA90D4D007A4500 /* AppDelegate.m in Sources */,
-				0C64A9ED1CA90D4D007A4500 /* main.m in Sources */,
+				0C64AA681CA90DB4007A4500 /* UIFont+Extension.m in Sources */,
+				0C64AA6A1CA90DB4007A4500 /* LoginData.m in Sources */,
+				0C64AA931CAA2C33007A4500 /* QRCodeScanner.m in Sources */,
+				0C64AA7B1CA90DB4007A4500 /* NSArray+MASAdditions.m in Sources */,
+				0C64AA731CA90DB4007A4500 /* ViewController.m in Sources */,
+				0C64AA6C1CA90DB4007A4500 /* AppDelegate.m in Sources */,
+				0C64AA7D1CA90DB4007A4500 /* View+MASAdditions.m in Sources */,
+				0C64AA781CA90DB4007A4500 /* MASLayoutConstraint.m in Sources */,
+				0C64AA761CA90DB4007A4500 /* MASConstraint.m in Sources */,
+				0C64AA8D1CA91A66007A4500 /* QRCodeViewController.m in Sources */,
+				0C64AA8A1CA9140D007A4500 /* QRCodeAreaView.m in Sources */,
+				0C64AA7F1CA90DB4007A4500 /* FileManager.m in Sources */,
+				0C64AA801CA90DB4007A4500 /* InputValidator.m in Sources */,
+				0C64AA7C1CA90DB4007A4500 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0C64AA751CA90DB4007A4500 /* MASCompositeConstraint.m in Sources */,
+				0C64AA811CA90DB5007A4500 /* JSONConverter.m in Sources */,
+				0C64AA6B1CA90DB4007A4500 /* LoginView.m in Sources */,
+				0C64AA721CA90DB4007A4500 /* main.m in Sources */,
+				0C64AA841CA90DB5007A4500 /* NetworkManager.m in Sources */,
+				0C64AA771CA90DB4007A4500 /* MASConstraintMaker.m in Sources */,
+				0C64AA831CA90DB5007A4500 /* MD5Encryptor.m in Sources */,
+				0C64AA871CA9113E007A4500 /* QRCodeBackgroundView.m in Sources */,
+				0C64AA7E1CA90DB4007A4500 /* ViewController+MASAdditions.m in Sources */,
+				0C64AA7A1CA90DB4007A4500 /* MASViewConstraint.m in Sources */,
+				0C64AA901CAA0F0A007A4500 /* QRCodeGenerator.m in Sources */,
+				0C64AA691CA90DB4007A4500 /* LoginViewController.m in Sources */,
+				0C64AA791CA90DB4007A4500 /* MASViewAttribute.m in Sources */,
+				0C64AA821CA90DB5007A4500 /* LoginManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,20 +614,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0C64A9F41CA90D4D007A4500 /* Main.storyboard */ = {
+		0C64AA311CA90DB4007A4500 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C64A9F51CA90D4D007A4500 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0C64A9F91CA90D4D007A4500 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0C64A9FA1CA90D4D007A4500 /* Base */,
+				0C64AA321CA90DB4007A4500 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0C64AA331CA90DB4007A4500 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C64AA341CA90DB4007A4500 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -413,7 +719,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = iFocus/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "iFocus/Other/iFocus-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/iFocus/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YCS.iFocus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,7 +733,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = iFocus/Info.plist;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "iFocus/Other/iFocus-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/iFocus/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YCS.iFocus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +808,7 @@
 				0C64AA171CA90D4D007A4500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C64AA181CA90D4D007A4500 /* Build configuration list for PBXNativeTarget "iFocusTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +817,7 @@
 				0C64AA1A1CA90D4D007A4500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C64AA1B1CA90D4D007A4500 /* Build configuration list for PBXNativeTarget "iFocusUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +826,7 @@
 				0C64AA1D1CA90D4D007A4500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
